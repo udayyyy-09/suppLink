@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+//below we have define a mongose db structure what content in it
 const userSchema = new mongoose.Schema({
     email: { type: String, required: true, unique: true },
     password: { type: String, required: true },
